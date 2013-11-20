@@ -13,18 +13,18 @@ Step 1: identify your triggering checkbox or radio button via id attribute.
 <input type="checkbox" id="trigger" />
 ```
 
-Step 2: add .show-when-selected to the elements you want to show when your trigger is checked (and hide when it's unchecked). Add your trigger id as data-trigger-id attribute.
+Step 2: add .show-when-checked to the elements you want to show when your trigger is checked (and hide when it's unchecked). Add your trigger id as data-trigger-id attribute.
 
 ```
-<div class="show-when-selected" data-trigger-id="trigger">
-	Only shown when the checkbox is selected
+<div class="show-when-checked" data-trigger-id="trigger">
+	Only shown when the checkbox is checked
 </div>
 ```
 
 Step 3: Include the JS file anywhere in your document
 
 ```
-<script src="show-when-selected.js"></script>
+<script src="show-when-checked.js"></script>
 ```
 
 ### Options
